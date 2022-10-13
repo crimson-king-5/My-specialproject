@@ -19,5 +19,7 @@ public class Subject2Code : MonoBehaviour
     void Update()
     {
         Distance_ = Vector3.Distance(Cube1.transform.position, Cube2.transform.position);
-        Debug.DrawLine(Distance_);
+
+ 
+    }
 }
